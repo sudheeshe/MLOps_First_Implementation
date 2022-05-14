@@ -9,6 +9,7 @@ directories = [
     'notebooks',
     'saved_models',
     'src'
+
 ]
 
 try:
@@ -25,7 +26,8 @@ file_ = [
     'dvc.yaml',
     'params.yaml',
     '.gitignore',
-    os.path.join('src', '__init__.py')
+    os.path.join('src', '__init__.py'),
+    os.path.join('src','get_data.py')
 ]
 
 try:
