@@ -29,7 +29,8 @@ file_ = [
     os.path.join('src', '__init__.py'),
     os.path.join('src','get_data.py'),
     os.path.join('src','load_data.py'),
-    os.path.join('src','split_data.py')
+    os.path.join('src','split_data.py'),
+    os.path.join('src','train_and_evaluate.py')
 ]
 
 try:
