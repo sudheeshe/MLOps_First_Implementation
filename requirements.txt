@@ -3,3 +3,6 @@ dvc[drive]
 pandas
 numpy
 sklearn
+pytest
+tox
+flask

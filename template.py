@@ -9,7 +9,8 @@ directories = [
     'notebooks',
     'saved_models',
     'src',
-    'report'
+    'report',
+    'prediction_service'
 
 ]
 
@@ -27,13 +28,15 @@ file_ = [
     'dvc.yaml',
     'params.yaml',
     '.gitignore',
+    'app.py',
     os.path.join('src', '__init__.py'),
     os.path.join('src','get_data.py'),
     os.path.join('src','load_data.py'),
     os.path.join('src','split_data.py'),
     os.path.join('src','train_and_evaluate.py'),
     os.path.join('report', 'params.json'),
-    os.path.join('report', 'scores.json')
+    os.path.join('report', 'scores.json'),
+    os.path.join('prediction_service', 'prediction.py')
 ]
 
 try:
