@@ -8,7 +8,8 @@ directories = [
     'data_given',
     'notebooks',
     'saved_models',
-    'src'
+    'src',
+    'report'
 
 ]
 
@@ -30,7 +31,9 @@ file_ = [
     os.path.join('src','get_data.py'),
     os.path.join('src','load_data.py'),
     os.path.join('src','split_data.py'),
-    os.path.join('src','train_and_evaluate.py')
+    os.path.join('src','train_and_evaluate.py'),
+    os.path.join('report', 'params.json'),
+    os.path.join('report', 'scores.json')
 ]
 
 try:
